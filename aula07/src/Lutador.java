@@ -22,21 +22,20 @@ public class Lutador {
 
     // METODOS
     public void apresentar() {
-        System.out.println("--------------------------------------------");
         System.out.println("CHEGOU A HORA! Apresentamos o lutador " + this.nome);
         System.out.println("Diretamente do(a) " + this.nacionalidade);
         System.out.println("com " + this.idade + " anos e " + this.altura + "m");
         System.out.println("pesando: " + this.peso + "Kg");
         System.out.println(this.vitorias + " vitorias");
         System.out.println(this.derrotas + " derrotas e");
-        System.out.println(this.empates + " empates!");
+        System.out.println(this.empates + " empates!\n");
     }
 
     public void status() {
         System.out.println(this.nome + " e um peso " + this.categoria);
         System.out.println("Ganhou " + this.vitorias + " vezes");
         System.out.println("Perdeu " + this.derrotas + " vezes");
-        System.out.println("Empatou " + this.empates + " vezes");
+        System.out.println("Empatou " + this.empates + " vezes\n");
     }
 
     public void ganharLuta() {
