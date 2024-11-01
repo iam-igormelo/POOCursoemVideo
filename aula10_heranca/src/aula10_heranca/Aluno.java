@@ -1,3 +1,4 @@
+package aula10_heranca;
 public class Aluno extends Pessoa{
     private int mat;
     private String curso;

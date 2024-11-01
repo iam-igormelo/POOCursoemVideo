@@ -1,3 +1,4 @@
+package aula10_heranca;
 public class Funcionario extends Pessoa{
     private String setor;
     private boolean trabalhando;
