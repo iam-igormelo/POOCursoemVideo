@@ -1,7 +1,7 @@
 public abstract class Pessoa {
-    private String nome;
-    private int idade;
-    private String sexo;
+    protected String nome;
+    protected int idade;
+    protected String sexo;
 
     public void fazerAniversario() {
         this.idade ++;
@@ -30,4 +30,5 @@ public abstract class Pessoa {
     public void setSexo(String sexo) {
         this.sexo = sexo;
     }
+
 }
